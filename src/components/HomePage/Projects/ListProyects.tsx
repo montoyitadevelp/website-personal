@@ -9,7 +9,7 @@ export const ListProyects: React.FC = () => {
     <>
       {listProjects.map((projects, index) => (
         <Fragment key={index}>
-          <div className="flex gap-[1rem]  max-[860px]:justify-center flex-wrap ">
+          <div className="flex place-content-center  max-[860px]:justify-center flex-wrap ">
             {Object.entries(projects).map(([projectName, projectData]) => (
               <InfoProject
                 key={projectName}

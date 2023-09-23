@@ -47,8 +47,8 @@ export const Head: React.FC = () => {
             <Avatar />
           </div>
         </section>
-        <section className="flex flex-col items-center pt-[5rem] pb-[5rem ">
-          <div className="flex flex-wrap md:flex-row items-center justify-center pt-[3rem] pb-[1rem] gap-[9rem] ">
+        <section className="flex flex-col items-center pt-[5rem] pb-[5rem] p-[1rem] ">
+          <div className="flex flex-row max-[1000px]:flex-col items-center justify-center pt-[3rem] pb-[1rem] gap-[9rem] ">
             <div className="flex flex-col items-start  md:text-justify">
               <div className="flex self-center md:self-start items-center">
                 <h1 className="text-danger-50 text-4xl">aboutMe</h1>
@@ -71,7 +71,7 @@ export const Head: React.FC = () => {
           <Icons />
         </section>
         <section>
-          <div className="flex items-center  p-[2rem] max-[340px]:justify-center">
+          <div className="flex items-center p-[2rem] max-[340px]:justify-center">
             <h1 className="text-danger-50 text-3xl md:flex">Projects</h1>
             <IconCode className="text-white" />
           </div>
