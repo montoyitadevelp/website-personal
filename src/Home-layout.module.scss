@@ -1,0 +1,35 @@
+.homeLayout {
+  background: linear-gradient(
+    130deg,
+    #000 0%,
+    #272727 44.03%,
+    #494949 99.99%,
+    #727272 100%
+  );
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.navLayout {
+  background: linear-gradient(
+    130deg,
+    #000 0%,
+    #272727 44.03%,
+    #494949 99.99%,
+    #727272 100%
+  );
+}
+
+.SubHeadCircleTop {
+  fill: #222;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.SubHeadIcons {
+  fill: var(--Gray-1, #333);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.06));
+}
+
