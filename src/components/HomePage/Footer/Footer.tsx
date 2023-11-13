@@ -9,7 +9,7 @@ export const Footer = () => {
   let currentYear = new Date().getFullYear();
   return (
     <>
-      <div className="font-mono flex justify-between p-[1rem] bg-danger-200 max-[650px]:flex-wrap max-[420px]:justify-center ">
+      <div className="font-mono flex justify-between  p-[1rem] bg-danger-200 max-[650px]:flex-wrap max-[420px]:justify-center ">
         <div className="flex flex-row items-center gap-[1rem] text-white text-2xl ">
           <IconCodeAsterix className=" text-danger-50" /> Simon
           <span className="- text-primary-100">Montoya</span>

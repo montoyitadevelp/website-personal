@@ -8,7 +8,7 @@ import "swiper/css";
 export const Head: React.FC = () => {
   return (
     <>
-      <span className="font-mono  ">
+      <span className="font-mono ">
         <section className=" pt-10 flex flex-col items-center top-[5rem] z-10  ">
           <div className="flex max-[980px]:flex-wrap items-center justify-center gap-[10rem]   ">
             <div className="flex flex-col h-full  ">
@@ -30,7 +30,7 @@ export const Head: React.FC = () => {
                     Year of <br />
                     experiencie
                   </p>
-                  <h1 className="text-2xl md:text-6xl text-primary-300">3</h1>
+                  <h1 className="text-2xl md:text-6xl text-primary-300">4</h1>
                   <p className="text-lg md:text-xl text-primary-100 uppercase">
                     Proyects completed
                   </p>

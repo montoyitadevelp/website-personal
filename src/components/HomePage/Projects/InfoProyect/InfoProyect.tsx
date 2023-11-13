@@ -32,7 +32,7 @@ export const InfoProject = ({
               <p className="text-gray-500 text-sm font-medium">
                 {titleProject}
               </p>
-            </div>
+            </div> 
           }
           interactive={true}
           plugins={[followCursor]}

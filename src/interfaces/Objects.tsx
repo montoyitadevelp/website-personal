@@ -12,6 +12,7 @@ import { Icon } from "@iconify/react/dist/iconify.js";
 import Teletubie from "../img/Teletubie.png";
 import WebDevHunt from "../img/WebDevHunt.png";
 import SearchBar from "../img/Searchbar.png";
+import MateSpeak from '../img/MateSpeak.png'
 
 /*************************** Block HomePage ************************************************/
 export const personalInfo = [
@@ -117,6 +118,23 @@ export const listProjects: ProyectInfo[] = [
       img: <img className="h-full" src={SearchBar} alt="Proyecto ReactSearchBar" />,
       link: "https://github.com/montoyitadevelp/react-avanzado",
     },
+    MateSpeak: {
+      icons: {
+        js: <Icon width={30} height={30} icon="skill-icons:javascript" />,
+        react: (
+          <Icon
+            className="animate-spin"
+            width={30}
+            height={30}
+            icon="logos:react"
+          />
+        ),
+        tailwind: <Icon width={30} height={30} icon="devicon:tailwindcss" />,
+        redux: <Icon width={30} height={30} icon="skill-icons:redux" />
+      },
+      img: <img className="h-full" src={MateSpeak} alt="Proyecto MateSpeak" />,
+      link: 'https://s11-15-m-csharp-react.vercel.app/'
+    }
   },
 ];
 

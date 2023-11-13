@@ -1,24 +1,29 @@
-import Atropos from "atropos/react";
-import styledHead from "../../../Home-layout.module.scss";
-import circleTop from "../../../assets/circles/circleTop.svg";
-import circleBottom from "../../../assets/circles/circleBottom.svg";
-import AvatarImage from "../../../img/Perfil.png";
-import ReactIcon from "../../../assets/icons/React.svg";
-import TypeScriptIcon from "../../../assets/icons/Typescript.svg";
-import NodeIcon from "../../../assets/icons/Node.svg";
+import Atropos from 'atropos/react';
+import styledHead from '../../../Home-layout.module.scss';
+import circleTop from '../../../assets/circles/circleTop.svg';
+import circleBottom from '../../../assets/circles/circleBottom.svg';
+import AvatarImage from '../../../img/Perfil.png';
+import ReactIcon from '../../../assets/icons/React.svg';
+import TypeScriptIcon from '../../../assets/icons/Typescript.svg';
+import NodeIcon from '../../../assets/icons/Node.svg';
 
 export const Avatar: React.FC = () => {
   return (
     <>
-      <Atropos 
-      activeOffset={40}
-      shadowScale={1.05}
+      <Atropos
+        activeOffset={40}
+        shadowScale={1.05}
+        onEnter={() => console.log('Enter')}
+        onLeave={() => console.log('Leave')}
+        onRotate={(x, y) => console.log('Rotate', x, y)}
       >
-        <div
-          className="w-96 h-96 max-[410px]:max-w-xs rounded-full bg-primary-200"
-        >
+        <div className="w-96 h-96 max-[410px]:max-w-xs rounded-lg bg-primary-200">
           <div className="flex place-content-center z-auto ">
-            <img className="absolute max-w-[14rem]" src={AvatarImage}  data-atropos-offset="-5"/>
+            <img
+              className="absolute max-w-[14rem]"
+              src={AvatarImage}
+              data-atropos-offset="-5"
+            />
             <div
               className={`${styledHead.SubHeadIcons} flex relative top-56 items-center justify-center w-36 h-36 rounded-full bg-primary-200 shadow-md `}
             >
@@ -34,7 +39,7 @@ export const Avatar: React.FC = () => {
             >
               <img src={NodeIcon} />
             </div>
-            <div className="flex relative bottom-24">
+            <div className="flex relative ">
               <img
                 className={`${styledHead.SubHeadCircleTop}`}
                 src={circleTop}
