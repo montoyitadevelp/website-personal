@@ -66,7 +66,7 @@ const ContactUs = () => {
   return (
     <>
       <ToastContainer />
-      <section className="items-center font-mono h-[96vh] mb-10">
+      <section className="items-center font-mono h-[96vh] mb-40">
         <div className="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
           <h2 className="mb-4 text-4xl text-center  text-danger-50">
             Contact Me
